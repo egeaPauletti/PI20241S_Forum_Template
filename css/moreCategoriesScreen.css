@@ -1,0 +1,91 @@
+main #more-categories{
+    width: 90%;
+    margin: 0 auto 5% auto;
+}
+
+main #more-categories .categories-section{
+    background-color: #ffffff;
+    padding: 2%;
+}
+
+main #more-categories .title-section{
+    width: 100%;
+    padding: 1.5% 0;
+    margin: 4% 0;
+    text-align: center;
+    background-color: #ffffff;
+    border: #c9c8c84a solid 1px;
+    box-shadow: 8px 8px 10px 0px rgba(94, 94, 94, 0.24);
+}
+
+main #more-categories .title-section{
+    color: #1c2453;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main #more-categories .categories-example .categorie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0.2% 0 0.2% 0;
+}
+
+main #more-categories .categories-example h2{
+    color: #1c2453;
+    font-weight: bold;
+    font-size: 16px;
+}
+main #more-categories .categories-example h2:hover{
+    /* text-decoration: underline; */
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 2px solid #1c2453;
+}
+
+
+main #more-categories .categories-example .text-block p{
+    text-align: center;
+    color: #1c2453;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 2px 0;
+}
+
+main .post-list-2{
+    display: none;
+}
+
+
+/* barra de navegação de paginas */
+main #more-categories .nav-section{
+    display: flex;
+    align-items: baseline;
+    margin: 1% 0;
+}
+
+main #more-categories .nav-section button{
+    /* background-color: transparent; */
+    background-color: transparent;
+    border: none;
+    color: #1c2453;
+    margin: 1% 0 0 0.5%;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 2px 7px;
+    transition: 0.6s ease;
+}
+
+main #more-categories .nav-section button:hover{
+    background-color: #aaaaaa49;
+    cursor: pointer;
+}
+
+main #more-categories .nav-section .btn-checked{
+    background-color: #aaaaaa85;
+}
+
+main #more-categories #post-list-2{
+    display: none;
+}

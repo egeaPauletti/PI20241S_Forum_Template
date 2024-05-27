@@ -1,0 +1,126 @@
+main #morePost{
+    width: 90%;
+    margin: 0 auto 5% auto;
+}
+
+main #morePost .title-section{
+    width: 100%;
+    padding: 1.5% 0;
+    margin: 4% 0;
+    text-align: center;
+    background-color: #ffffff;
+    border: #c9c8c84a solid 1px;
+    box-shadow: 8px 8px 10px 0px rgba(94, 94, 94, 0.24);
+}
+
+main #morePost .title-section{
+    color: #1c2453;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main #morePost .post-section{
+    background-color: #ffffff;
+    padding: 2%;
+    box-shadow: 8px 8px 10px 0px rgba(94, 94, 94, 0.24);
+    border: #c9c8c84a solid 1px;
+}
+
+main #morePost .post-section .example-post{
+    margin: 0 0 1% 0;
+}
+
+main #morePost .post-section .example-post .post{
+    display: flex;
+    align-items: center;
+}
+
+main #morePost .post-section .example-post .text-block{
+    width: 85%;
+}
+
+
+main #morePost .post-section .example-post .text-block h2{
+    color: #1c2453;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 4px 0;
+}
+main #morePost .post-section .example-post .text-block h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+main #morePost .post-section .example-post .text-block p{
+    font-size: 11px; 
+    color: #aaaaaa;
+}
+
+main #morePost .post-section .example-post .text-block p .authors-name{
+    font-weight: bold;
+    color: #000000a7;
+}
+
+main #morePost .post-section .example-post .text-block p .authors-name:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+main #morePost .post-section .example-post .post img{
+    width: 35px;
+    height: 35px;
+    clip-path: circle(50%);
+}
+
+main #morePost .post-section .example-post h3{
+    font-weight: bold;
+    margin: 0 10px ;
+    color: #1c2453;
+    font-size: 14px;
+}
+
+main #morePost .post-section .example-post h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* barra de navegação de paginas */
+
+
+main #morePost .nav-section{
+    display: flex;
+    align-items: baseline;
+    margin: 1% 0;
+}
+
+main #morePost .nav-section button{
+    /* background-color: transparent; */
+    background-color: transparent;
+    border: none;
+    color: #1c2453;
+    margin: 1% 0 0 0.5%;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 2px 7px;
+    transition: 0.6s ease;
+}
+
+main #morePost .nav-section button:hover{
+    background-color: #aaaaaa49;
+    cursor: pointer;
+}
+
+main #morePost .nav-section .btn-checked{
+    background-color: #aaaaaa85;
+}
+
+main #morePost p{
+    color: #1c2453;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main #morePost #post-list-2{
+    display: none;
+}

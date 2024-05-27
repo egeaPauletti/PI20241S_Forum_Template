@@ -1,0 +1,133 @@
+#communities{
+    width: 90%;
+    margin: 0 auto 5% auto;
+}
+
+.categories-section{
+    background-color: #ffffff;
+    padding: 2%;
+}
+
+.title-section{
+    width: 100%;
+    padding: 1.5% 0;
+    margin: 4% 0;
+    text-align: center;
+    background-color: #ffffff;
+    border: #c9c8c84a solid 1px;
+    box-shadow: 8px 8px 10px 0px rgba(94, 94, 94, 0.24);
+}
+
+.title-section{
+    color: #1c2453;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#communities .cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+}
+
+#communities .cards .card-1, .card-2, .card-3{
+    width: 27%;
+    height: 150px;
+    padding: 3% 2%;
+    background-color: #ffffff;
+    border: #c9c8c84a solid 1px;
+    box-shadow: 8px 8px 10px 0px rgba(94, 94, 94, 0.24);
+}
+
+
+#communities .cards .communities-header{
+    display: flex;
+    align-items: center;
+    padding: 0 0 1% 0;
+}
+
+#communities .cards .communities-header img{
+    width: 50px;
+    margin: 0 10px;
+    clip-path: circle(50%);
+}    
+
+#communities .cards .communities-title{
+    display: flex;
+    align-items: center;
+    width: 75%
+}
+
+#communities .cards .communities-title h2{
+    color: #1c2453;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#communities .cards .communities-title p{
+    font-size: 11px; 
+    color: #aaaaaa;
+}
+
+#communities .cards .communities-header button{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #1c2453;
+    border: none;
+    padding: 19% 25%;
+    border-radius: 15px;
+}
+
+#communities .cards .communities-header button:hover{
+    background-color: #273582;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
+#communities .cards p{
+    color: #1c2453;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 1% 0;
+    padding: 2px 5px;
+    line-height: 1.5rem;
+}
+.container-button{
+    text-align: center;
+    margin: 2% 0
+    ;
+}
+
+.more-communities .nav-section{
+    display: flex;
+    align-items: baseline;
+    margin: 1% 0;
+}
+
+.more-communities .nav-section button{
+    /* background-color: transparent; */
+    background-color: transparent;
+    border: none;
+    color: #1c2453;
+    margin: 1% 0 0 0.5%;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 2px 7px;
+    transition: 0.6s ease;
+}
+
+.more-communities .nav-section button:hover{
+    background-color: #aaaaaa49;
+    cursor: pointer;
+}
+
+.more-communities .nav-section .btn-checked{
+    background-color: #aaaaaa85;
+}
+
+#communities #post-list-2{
+    display: none;
+}

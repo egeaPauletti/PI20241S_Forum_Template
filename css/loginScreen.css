@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main .container{
+    background-color: #fff;
+    box-shadow: 8px 8px 10px 0px rgba(94, 94, 94, 0.24);
+    border: #c9c8c84a solid 1px;
+    position: relative;
+    overflow: hidden;
+    width: 968px;
+    height: 600px;
+    max-width: 100%;
+    min-height: 480px;
+    margin: 4% auto;
+}
+
+main .container form h1{
+    font-size: 26px;
+    font-weight: bold;
+    color: #1c2453;
+    margin: 0 0 3% 0;
+}
+
+main .container .toggle h1{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+main .container p{
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+}
+
+main .container span{
+    font-size: 13px;
+    color: #646464;
+}
+
+main .container .text-block{
+    color: yellow;
+}
+
+main .container .forgot-password{
+    color: #333;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 15px 0 10px;
+}
+
+main .container button{
+    background-color: #1c2453;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+.acces-button{
+    background-color: #1c2453;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-decoration: none;
+}
+
+.acces-button:hover{
+    background-color: #2f3e94;
+    cursor: pointer;
+}
+
+main .container button:hover{
+    background-color: #2f3e94;
+    cursor: pointer;
+}
+
+main .container button.hidden{
+    background-color: transparent;
+    border-color: #fff;
+}
+main .container button.hidden:hover{
+    background-color: transparent;
+    border-color: transparent;
+    background-color: #293579;
+}
+
+main .container form{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+}
+
+main .container .input{
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+main .form-container{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+main .sign-in{
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
+
+main .container.active .sign-in{
+    transform: translateX(100%);
+}
+
+main .sign-up{
+    left: 0;
+    width: 50%;
+    opacity: 0;
+    z-index: 1;
+}
+
+main .container.active .sign-up{
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+    animation: move 0.6s;
+}
+
+@keyframes move{
+    0%, 49.99%{
+        opacity: 0;
+        z-index: 1;
+    }
+    50%, 100%{
+        opacity: 1;
+        z-index: 5;
+    }
+}
+
+main .social-icons{
+    margin: 20px 0;
+}
+
+main .social-icons a{
+    border: 1px solid #ccc;
+    border-radius: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    width: 40px;
+    height: 40px;
+    color: #1c2453;
+    transition: 0.7s ease;
+}
+
+main .social-icons a:hover{
+    color: #fff;
+    background-color: #1c2453;
+}
+
+main .forgot-password:hover{
+    color: #1c2453;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+main #checkbox{
+    display: flex;
+    width: 100%;
+    margin: 0 0 1% 0;
+}
+main #checkbox input{
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+main .bold-checkbox{
+    font-weight: bold;
+}
+
+main .bold-checkbox:hover{
+    font-weight: bold;
+    color: #1c2453;
+    cursor: pointer;
+}
+
+main .toggle-container{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+    z-index: 1000;
+}
+
+main .container.active .toggle-container{
+    transform: translateX(-100%);
+}
+
+main .toggle{
+    background-image: url(/assets/backgroundLoginField.png);
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: all 0.6s ease-in-out;
+}
+
+main .container.active .toggle{
+    transform: translateX(50%);
+}
+
+main .toggle-panel{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    text-align: center;
+    top: 0;
+    transform: translateX(0);
+    transition: all 0.6s ease-in-out;
+}
+
+main .toggle-left{
+    transform: translateX(-200%);
+}
+
+main .container.active .toggle-left{
+    transform: translateX(0);
+}
+
+main .toggle-right{
+    right: 0;
+    transform: translateX(0);
+}
+
+main .container.active .toggle-right{
+    transform: translateX(200%);
+}

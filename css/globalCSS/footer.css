@@ -1,0 +1,34 @@
+footer{
+    background-color: #E3E5FF;
+    padding: 1% 0;
+}
+footer .footer-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+
+footer #logo-nucleo, #logo-uniso {
+    width: 100px;
+}
+
+
+footer h2{
+    color: #1c2453;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 4px 0;
+}
+
+footer .social-media-footer img{
+    width: 20px;
+    margin: 0 10px;
+}
+
+footer p{
+    padding: 1.5% 0;
+    font-size: 14px;
+} 

@@ -1,0 +1,152 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Cabeçalho */
+
+header{
+    background-color: #161D43;
+}
+
+header #header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0 15px 0;
+}
+
+header #header #nucleo-img-nav{
+    margin: 0.5% 0 0.5% 100%;
+    width: 170px;
+}
+
+header #header ul{
+    display: inline;
+    margin: 5px 50px 0 0;
+}
+
+
+header #header #nav-list li, #login-list li{
+    display: inline-block;
+    margin: 0 10px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+}
+
+header #header li a{ 
+    color: #fff;
+    text-decoration: none;
+}
+
+header #header li a:hover {
+    text-decoration:underline;
+}
+
+
+#nav-list-home-screen{
+    display: flex;
+    align-items: center;
+}
+
+#user-profile-header{ 
+    display: flex;
+    align-items: center;
+}
+
+#user-profile-header a{ 
+    color: #fff;
+    text-decoration: none;
+    margin: 0 30px 0 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+}
+
+#user-profile-header a:hover{ 
+    text-decoration:underline;
+}
+
+#user-profile-header img{
+    width: 30px;
+    clip-path: circle(50%);
+}
+
+
+/* -------------------------------------------- */
+/* Sub Header */
+
+header #sub-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 28px;
+    padding: 10px 0;
+}
+
+header #sub-header ul{
+    margin: 0 0 0 3%;
+}
+ 
+header #sub-header li{
+    display: inline-block;
+    margin: 0 10px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+}
+
+header #sub-header a{
+    color: #1c255a;
+    text-decoration: none;
+}
+
+header #sub-header a:hover{
+    text-decoration:underline;
+}
+
+.search-field {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    width: 400px;
+    margin: 0 1% 0 0;
+   }
+   
+.input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #e0e0e090;
+    color: #0d0c22;
+    transition: .3s ease;
+   }
+   
+.input::placeholder {
+    color: #747475;
+   }
+   
+.input:focus, input:hover {
+    outline: none;
+    border-color: rgba(17, 0, 83, 0.999);
+    background-color: #fff;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+   }
+   
+   .search-field .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+   }

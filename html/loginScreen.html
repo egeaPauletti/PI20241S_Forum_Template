@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/globalCSS/reset.css">
+    <link rel="stylesheet" href="/css/globalCSS/header.css">
+    <link rel="stylesheet" href="/css/globalCSS/footer.css">
+    <link rel="stylesheet" href="/css/loginScreen.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/assets/logos/logoNucleo.png" type="image/x-icon">
+    <title>Núcleo de TI</title>
+</head>
+
+<body>
+    <header>
+        <div id="header">
+        <a href="/index.html"><img id="nucleo-img-nav" src="/assets/logos/logoNucleoCText.png" alt="logo do nucleo de T.I."></a>
+            <div>
+                <ul id="nav-list">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Guia do Aluno</a></li>
+                    <li><a href="#">Eventos</a></li>
+                    <li><a href="#">Parceiros</a></li>
+                    <li><a href="/html/homeScreenWithLoading.html">Fórum</a></li>
+                </ul>
+                <ul id="login-list">
+                    <li><a href="/html/loginScreen.html">Entrar</a></li>
+                    <li>|</li>
+                    <li><a href="/html/loginScreen.html">Cadastrar</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="sub-header">
+            <ul id="sub-header-list">
+            <li><a href="/html/homeScreen.html">Home</a></li>
+            <li><a href="/html/morePostsScreen.html">Postagens</a></li>
+            <li><a href="/html/moreCategoriesScreen.html">Categorias</a></li>
+            <li><a href="/html/moreCommunitiesScreen.html">Comunidades</a></li>
+            </ul>
+            <div class="search-field">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                <input placeholder="Pesquisar" type="search" class="input">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container" id="container">
+            <div class="form-container sign-up">
+                <form>
+                    <h1>Crie sua Conta</h1>
+                    <span>acesse via</span>
+                    <div class="social-icons">
+                        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <span>ou use seu email para cadastrar:</span>
+                    <input type="text" class="input" placeholder="Nome">
+                    <input type="email" class="input" placeholder="Email">
+                    <input type="password" class="input" placeholder="Senha">
+                    <div id="checkbox">
+                        <input type="checkbox">
+                        <span>Aceito os <span class="bold-checkbox">Termos de Privacidade*</span></span>
+                    </div>
+                    <div id="checkbox">
+                        <input type="checkbox">
+                        <span>Lembrar conta</span>
+                    </div>
+                    <a href="/html/homeScreen.html" class="acces-button">Cadastrar</a>
+                </form>
+            </div>
+            <div class="form-container sign-in">
+                <form>
+                    <h1>Entrar</h1>
+                    <span>acesse via</span>
+                    <div class="social-icons">
+                        <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <span>ou use seu email e senha:</span>
+                    <input type="email" class="input" placeholder="Email">
+                    <input type="password" class="input" placeholder="Senha">
+                    <div id="checkbox">
+                        <input type="checkbox">
+                        <span>Lembrar conta</span>
+                    </div>
+                    <a href="/html/forgoutPassword.html" class="forgot-password">esqueceu a senha?</a>
+                    <a href="/html/homeScreen.html" class="acces-button">Entrar</a>
+                </form>
+            </div>
+            <div class="toggle-container">
+                <div class="toggle">
+                    <div class="toggle-panel toggle-left">
+                        <h1>Bem Vindo!</h1>
+                        <p>Já tem uma conta no <span class="text-block">Grupo de TI da UNISO?</span><br>Faça seu login e acesse nossa plataforma</p>
+                        <button class="hidden" id="login">Entrar</button>
+                    </div>
+                    <div class="toggle-panel toggle-right">
+                        <h1>Bem Vindo!</h1>
+                        <p>Ainda não tem uma conta no <span class="text-block">Grupo de TI da UNISO?</span><br>Registre-se agora e venha fazer parte desse projeto!</p>
+                        <button class="hidden" id="register">Cadastre-se</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+        <img id="logo-nucleo" src="/assets/logos/LogoNucleoPurple.png" alt="logo do nucleo de TI">
+        <div class="text-block">
+            <h2>Horário de Atendimento</h2>
+            <p>Terça: 17:00 ás 19:00</p>
+            <p>Quinta: 17:00 ás 19:00</p>
+        </div>
+    
+        <div class="social-media-footer">
+            <img src="/assets/icons/facebookIcon.png" alt="icone do facebook">
+            <img src="/assets/icons/emailIcon.png" alt="icone do email">
+            <img src="/assets/icons/instagramIcon.png" alt="icone do instagram">
+        </div>
+    
+        <div class="text-block">
+            <h2>Local</h2>
+            <p>Sala do Nucleo de TI</p>
+            <p>Bloco F - Piso Térreo</p>
+        </div>
+    
+        <div>
+            <img  id="logo-uniso" src="/assets/logos/logoUnisoIconPurple.png" alt=" logo da uniso">
+        </div>
+        </div>
+      </footer>
+    
+    <script src="/js/loginSlider.js"></script>
+</body>
+
+</html>
